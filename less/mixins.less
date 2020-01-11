@@ -1,1 +1,17 @@
-// Mixins Here
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.box-spacing{
+    padding: 1%;
+    margin: 2%;
+}
+
+.btn(@m, @p, @br) {
+    margin: @m;
+    padding: @p;
+    border-radius: @br;
+  }
